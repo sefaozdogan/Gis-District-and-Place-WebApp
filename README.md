@@ -13,16 +13,8 @@ The information is saved in the database after the user inputs the information o
 ## Database
 MsSql server is used in application's database. There are two tables, districts and places table in the database. Each table contains various information of location. The names and data types of the tables are shown below.
 
-TblPlaces
-Column Name		Data Type		Allow Nulls
----------------------------------------------------------------
-DisctrictCode		varchar(50)		Yes
-PlaceNo			varchar(50)		Yes
-PlaceCoord		varchar(MAX)		Yes
+![alt text](https://github.com/sefaozdogan/Gis-District-and-Place-WebApp/blob/master/tables_format.png)
 
-TblDistricts
-Column Name		Data Type		Allow Nulls
----------------------------------------------------------------
-DistrictName		varchar(50)		Yes
-DistrictCode		varchar(50)		Yes
-DistrictWkt		varchar(MAX)		Yes
+## Preview
+
+![alt text](https://github.com/sefaozdogan/Gis-District-and-Place-WebApp/blob/master/prev.gif)
